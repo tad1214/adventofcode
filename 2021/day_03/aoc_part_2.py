@@ -30,6 +30,7 @@ def main():
 
     remaining_data_co2 = DIAGNOSTIC_DATA
     i = 0
+    #this could definitely be modularized better, something to return to
     while i < len(DIAGNOSTIC_DATA[0]) and len(remaining_data_co2) > 1:
         #First value for 0's, second for 1's
         bit_count = [0,0]
